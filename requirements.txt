@@ -1,0 +1,35 @@
+# PDF parsing
+pdfplumber
+numpy<2
+regex
+tqdm
+
+# NLP
+nltk
+rapidfuzz>=3.0.0
+
+# Web app frameworks
+streamlit
+fastapi
+uvicorn
+python-multipart
+
+# Environment variable loading
+python-dotenv
+
+# Embedding + search
+faiss-cpu
+sentence-transformers
+
+# Reranker (BGE v2 M3)
+transformers>=4.39.0
+torch==2.2.2  # Stable CPU version
+
+# Optional performance for Transformers
+accelerate
+
+# OpenAI API
+openai
+
+# Langchain (if still used anywhere)
+langchain

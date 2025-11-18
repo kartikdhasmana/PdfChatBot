@@ -1,0 +1,61 @@
+# -------- PYTHON -------- #
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# -------- OS / EDITOR FILES -------- #
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------- DATA FILES -------- #
+# PDFs and raw data
+data/*.pdf
+data/*.csv
+data/*.txt
+
+# Output cleaned files
+output/*.pdf
+output/*.txt
+output/*.json
+
+# -------- VECTOR STORE / EMBEDDINGS -------- #
+vector_store/
+*.faiss
+*.npy
+*.pkl
+
+# -------- LOG FILES -------- #
+*.log
+
+# -------- STREAMLIT -------- #
+.streamlit/
+
+# -------- FASTAPI UPLOADS -------- #
+uploads/
+temp/
+
+# -------- MODELS / CHECKPOINTS -------- #
+*.pt
+*.bin
+*.h5
+*.onnx
+*.model
+
+# -------- CACHE -------- #
+*.cache
+cache/
+logs/
