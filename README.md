@@ -52,4 +52,8 @@ src/
 ## Environment
 - Set your OpenAI API key in `.env` as `OPENAI_API_KEY=sk-...`
 
+
+## Output
+<img width="1208" height="893" alt="image" src="https://github.com/user-attachments/assets/fe718c4a-f737-4e18-9a07-7f266dbdc4dd" />
+
 --- 
